@@ -1,0 +1,9 @@
+输入框的设计参考了Material Design设计标准：
+https://material.io/guidelines/components/
+text-fields.html#text-fields-layout
+
+对于此页面列出的组件，需要完整的单元测试以及文档
+
+单元测试使用React集成的Jest测试框架进行。
+
+文档可以使用Github或者Bitbucket自带的wiki功能。

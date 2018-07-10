@@ -1,0 +1,34 @@
+Signup页面的地址是domain/signup，
+设定页面的地址，可以用react-router
+这个第三方插件
+
+必填：email, password,
+password confirmation, name
+
+验证: email必须符合常见
+邮箱格式；password最小6个字
+符，最大15个字符；password
+confirmation必须与password
+一致；name最长20个字符。
+
+如果一个输入框没填或者不符合
+验证要求，在相应的输入框下显
+错误原因
+
+界面中带有阴影的面板，可以使
+第三方库material ui里的Paper
+组件
+
+注册用户提交到POST https:
+//jsonplaceholder.typicode
+.com/users
+数据格式为JSON：
+{
+  “data”: {
+    “email”: “abc@163.com”,
+    “password”: “123456”,
+    “name”: “Sifeng Chen”
+  }
+}
+并检查返回的HTTP status是否
+为201 (created)

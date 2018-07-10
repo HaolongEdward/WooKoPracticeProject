@@ -1,0 +1,7 @@
+聊天界面的网页地址为domain/chat
+
+聊天界面要求能够发送和接收文字消息，以及发送和接收图片消息，其中人名可以写在代码里。
+
+建议使用Firebase Realtime Database来存储聊天消息，使用Firebase Storage来存储图片。
+
+Firebase Realtime Database是使用JSON格式的NoSQL数据库，动手写之前需要搞清楚它的使用方式，以及聊天数据库的设计原则。

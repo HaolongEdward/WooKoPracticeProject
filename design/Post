@@ -1,0 +1,14 @@
+post页面的地址为domain/posts，设定页面地址可以用第三方插件react-router
+
+post数据与comment数据
+需要从https://jsonplaceholder.typicode.com获取，基中一个post可能
+有零个或者多个comments
+
+点击Show Comment区域打开Comment列表，同时剪头由向下变为向上
+
+Comment显示控件中，要显示三项内容，最大的区域显示body，次大的区域显示email，最小的区域显示name
+
+星星是打分的控件，初始星
+星全部为白色，点击某一个星星会例它和它左边的星星变为黄色
+
+每一个post的分数保存在本地，在下一次打开这个页面时，要能够显示保存下来的分数
