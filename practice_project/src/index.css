@@ -3,3 +3,20 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.Header{
+  width: 1440px;
+  height: 88px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+}
+
+
+.Title{
+  width: 117px;
+  height: 49px;
+  color: #000000;
+  font-family: "Avenir - Heavy";
+  font-size: 36px;
+  font-weight: 800;
+}
